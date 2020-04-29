@@ -4,7 +4,6 @@
 //
 //  Created by Arkadiusz Wochniak on 24/03/2020.
 //
-
 public class PaymentMethodViewController : UITableViewController {
     
     var merchantId: Int? = nil
