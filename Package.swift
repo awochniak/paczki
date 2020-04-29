@@ -4,11 +4,11 @@
 import PackageDescription
 
 let package = Package(
-    name: "test",
+    name: "allegro",
     products: [
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
-        .library(name: "test1", targets: ["paczki"]),
-        .library(name: "test2", targets: ["paczki"])
+        .library(name: "core", targets: ["p24-core"]),
+        .library(name: "paymentMethods", targets: ["p24-payment-methods"])
     ],
     dependencies: [],
     targets: [
