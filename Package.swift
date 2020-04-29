@@ -5,9 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "paczki",
-    platforms: [
-        .iOS(.v8)
-    ],
     products: [
         .library(
             name: "paczki",
@@ -17,7 +14,8 @@ let package = Package(
     targets: [
         .target(
             name: "paczki",
-            dependencies: []),
+            dependencies: [
+        ]),
     ]
 )
 
