@@ -5,7 +5,7 @@
 //  Created by Arkadiusz Wochniak on 24/03/2020.
 //
 
-struct PaymentMethod {
+public struct PaymentMethod {
     let name: String
     let id: Int
     let img: String
