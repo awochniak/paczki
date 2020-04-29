@@ -18,8 +18,9 @@ let package = Package(
         .target(
             name: "paczki",
             dependencies: [
-		.product(name: "UIKit"),
-	    ]
+                .product(name: "UIKit")
+            ]
+        ),
         .testTarget(
             name: "paczkiTests",
             dependencies: ["paczki"]),
