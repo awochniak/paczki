@@ -5,9 +5,15 @@ import PackageDescription
 
 let package = Package(
     name: "allegro",
-    products: [],
+    products: [
+        .library(
+            name: "paczki",
+            targets: ["allegro"])
+        ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-nio", from: "1.12.0")
     ],
     targets: []
 )
+
+
