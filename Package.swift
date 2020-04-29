@@ -7,13 +7,16 @@ let package = Package(
     name: "allegro",
     products: [
         .library(
-            name: "paczki",
-            targets: ["allegro"])
+            name: "allegro",
+            targets: ["paczki"])
         ],
-    dependencies: [
-        .package(url: "https://github.com/apple/swift-nio", from: "1.12.0")
-    ],
-    targets: []
+    dependencies: [],
+    targets: [
+        .target(
+            name: “paczki”,
+            dependencies: []),
+    ]
 )
+
 
 
