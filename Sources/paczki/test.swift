@@ -1,3 +1,5 @@
-public func test () {
-	print("testowa metoda)
+public class test {
+	public static  func test () {
+		print("testowa metoda")
+	}
 }
